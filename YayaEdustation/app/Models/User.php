@@ -20,6 +20,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'level',
+        'google_id'
     ];
 
     /**
@@ -40,4 +42,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function linkToProfileUser(){
+        return $this->hasOne('App\Models\ProfileTutor','id_users','id');
+    }
+
+    public function linkToSertifikat(){
+        return $this->hasMany('App\Models\Sertifikat','id_users','id');
+    }
+
+    public function linkToPengalaman(){
+        return $this->hasMany('App\Models\PengalamanMengajar','id_users','id');
+    }
 }
