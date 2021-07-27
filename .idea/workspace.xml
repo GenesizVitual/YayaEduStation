@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21614dcd-cd05-4ad4-8090-4ead1897927f" name="Default" comment="Set Template Website">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/about.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-details-tab-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-details-tab-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-details-tab-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-details-tab-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-details-tab-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/course-details.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/events-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/events-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/hero-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/logo_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/testimonials/testimonials-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/testimonials/testimonials-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/testimonials/testimonials-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/testimonials/testimonials-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/testimonials/testimonials-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/trainers/trainer-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/trainers/trainer-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/trainers/trainer-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/fonts/boxicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/fonts/boxicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/fonts/boxicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/fonts/boxicons.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/icofont/fonts/icofont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/icofont/fonts/icofont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/.idea/YayaEdustation.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/animate.css/animate.compat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/animate.css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/animate.css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/aos/aos.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/aos/aos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/bootstrap/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/css/animations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/css/boxicons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/css/boxicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/css/transformations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/boxicons/fonts/boxicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/counterup/counterup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/icofont/icofont.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/jquery.easing/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/jquery/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.theme.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.theme.green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/assets/owl.theme.green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/php-email-form/validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/remixicon/remixicon.symbol.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/waypoints/jquery.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/about.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/contact.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/course-details.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/courses.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/events.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/forms/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/forms/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/include/nav.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/pricing.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YayaEdustation/resources/views/webview/trainers.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YayaEdustation/routes/web.php" afterPath="$PROJECT_DIR$/YayaEdustation/routes/web.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/include/nav.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assets/</find>
+      <find>owl</find>
+      <find>css</find>
+      <find>{{ asset('webview') }}/assets/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>webview/assets/</replace>
+      <replace>{{ asset('webview') }}/assets/</replace>
+      <replace>{{ asset('assets') }}/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/YayaEdustation/routes/web.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/about.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/contact.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/course-details.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/courses.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/events.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/pricing.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/trainers.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/index.blade.php" />
+        <option value="$PROJECT_DIR$/YayaEdustation/resources/views/webview/include/nav.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="YayaEduStation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YayaEduStation" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="YayaEduStation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YayaEduStation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="YayaEdustation" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="YayaEduStation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YayaEduStation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="YayaEdustation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="YayaEduStation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YayaEduStation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="YayaEdustation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="YayaEduStation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YayaEduStation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="YayaEdustation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webview" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="YayaEduStation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YayaEduStation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="YayaEdustation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webview" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/web.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\public\webview" />
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\public\webview\assets\img" />
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\webview" />
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\public\webview" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21614dcd-cd05-4ad4-8090-4ead1897927f" name="Default" comment="" />
+      <created>1616929405788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616929405788</updated>
+      <workItem from="1616929409664" duration="205000" />
+      <workItem from="1617411737115" duration="16000" />
+      <workItem from="1617411766253" duration="9709000" />
+      <workItem from="1617450110680" duration="935000" />
+      <workItem from="1617501454179" duration="16000" />
+    </task>
+    <task id="LOCAL-00001" summary="Set Laravel 8X">
+      <created>1616929520005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616929520005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10881000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Set Laravel 8X" />
+    <MESSAGE value="Set Template Website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set Template Website" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/include/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/public/webview/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/forms/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/public/webview/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="109" column="22" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/public/webview/assets/img/logo_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="3444" column="41" lean-forward="false" selection-start-line="3444" selection-start-column="38" selection-end-line="3444" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/public/webview/assets/vendor/owl.carousel/owl.carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11243">
+          <caret line="5" column="6531" lean-forward="false" selection-start-line="5" selection-start-column="6531" selection-end-line="5" selection-end-column="6531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="23" column="110" lean-forward="false" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/course-details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="23" column="110" lean-forward="false" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/courses.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="110" lean-forward="false" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/events.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="110" lean-forward="false" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/trainers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/pricing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="110" lean-forward="false" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="62" column="74" lean-forward="false" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YayaEdustation/resources/views/webview/include/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
