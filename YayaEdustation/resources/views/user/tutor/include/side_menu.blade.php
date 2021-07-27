@@ -36,7 +36,7 @@
         </li>
         <li class="nav-item">
             <a href="{{ url('daftar-booking') }}" class="nav-link">
-                <i class="nav-icon fas fa-comments"></i>
+                <i class="nav-icon fas fa-book"></i>
                 <p>
                     Daftar Booking
                 </p>
