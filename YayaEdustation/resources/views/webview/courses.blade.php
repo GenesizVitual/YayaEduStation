@@ -14,8 +14,9 @@
     <link href="{{ asset('webview') }}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('webview') }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,11 +62,19 @@
 
             <div class="row">
                 <div class="col-md-5">
-                    <form action="http://127.0.0.1:8000/search-by" method="post" style="width: 100%">
+                    <form action="{{ url('course') }}" method="post" style="width: 100%">
                         <div class="input-group">
-                            <input type="hidden" name="_token" value="fHNphovNLtVT5T4sHl7VMfgPD6b7P3HzqEhxjXun">
-                            <input type="text" name="message" placeholder="Search by, what do you whant to learn..."
-                                   class="form-control">
+                            {{ csrf_field() }}
+                            <select name="id_pembelajaran"
+                                    class="form-control" required>
+                                <option value="">Search by, what do you whant to learn...</option>
+                                @if(!empty($pembelajaran))
+                                    @foreach($pembelajaran as $item_pembelajaran)
+                                        <option
+                                            value="{{ $item_pembelajaran->id }}">{{$item_pembelajaran->pelajaran}}</option>
+                                    @endforeach
+                                @endif
+                            </select>
                             <span class="input-group-append">
                         <button type="submit" class="btn btn-primary">Search</button>
                       </span>
@@ -81,7 +90,6 @@
         <div class="container" data-aos="fade-up">
 
             <div class="row" data-aos="zoom-in" data-aos-delay="100">
-
                 @if(!empty($course))
                     @foreach($course as $data_item)
                         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -95,8 +103,9 @@
                                         </h3>
                                         <div class="trainer d-flex justify-content-between align-items-center">
                                             <div class="trainer-profile d-flex align-items-center">
-                                                <img src="{{ asset('user/tutor/photo') }}/{{$data_item->linkToUsers->linkToProfileUser->foto}}"
-                                                     class="img-fluid" alt="" style="width: 30px; height: 30px">
+                                                <img
+                                                    src="{{ asset('user/tutor/photo') }}/{{$data_item->linkToUsers->linkToProfileUser->foto}}"
+                                                    class="img-fluid" alt="" style="width: 30px; height: 30px">
                                                 <span>{{ $data_item->linkToUsers->linkToProfileUser->nama }}</span>
                                             </div>
                                             <div class="trainer-rank d-flex align-items-center">
@@ -120,10 +129,21 @@
                             </div>
                         </div> <!-- End Course Item-->
                     @endforeach
-                @endif
+                 @endif
+
+                <div class="col-md-12">
+                    @if(count($course)<1)
+                        <div class="breadcrumbs aos-init aos-animate" data-aos="fade-in" style="margin: 0px">
+                            <div class="container">
+                                <h2><i></i> Maaf, Tutor yang anda cari belum tersedia</h2>
+                            </div>
+                        </div>
+                    @endif
+                </div>
             </div>
 
         </div>
+
     </section><!-- End Courses Section -->
 
 </main><!-- End #main -->

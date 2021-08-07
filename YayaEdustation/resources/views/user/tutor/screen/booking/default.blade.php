@@ -6,15 +6,7 @@
 
 @stop
 
-@section('page_header')
-    @include('user.tutor.include.header',[
-    'title'=>'Daftar Booking',
-         'breadcrumb'=> [
-                'Home'=>'#',
-                'Materi'=>'materi',
-         ]
-    ])
-@stop
+
 
 @section('content')
     <div class="row">
@@ -52,28 +44,43 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                        <td>Waktu</td>
-                                        <td style="background-color: @if(!empty($data->senin)) greenyellow @else red @endif" >{{ $data->senin }}</td>
-                                        <td style="background-color: @if(!empty($data->selasa)) greenyellow @else red @endif">{{ $data->selasa }}</td>
-                                        <td style="background-color: @if(!empty($data->rabu)) greenyellow @else red @endif">{{ $data->rabu }}</td>
-                                        <td style="background-color: @if(!empty($data->kamis)) greenyellow @else red @endif">{{ $data->kamis }}</td>
-                                        <td style="background-color: @if(!empty($data->jumat)) greenyellow @else red @endif">{{ $data->jumat }}</td>
-                                        <td style="background-color: @if(!empty($data->sabtu)) greenyellow @else red @endif">{{ $data->sabtu }}</td>
-                                        <td style="background-color: @if(!empty($data->minggu)) greenyellow @else red @endif">{{ $data->minggu }}</td>
+                                    <td>Waktu</td>
+                                    <td style="background-color: @if(!empty($data->senin)) greenyellow @else red @endif">{{ $data->senin }}</td>
+                                    <td style="background-color: @if(!empty($data->selasa)) greenyellow @else red @endif">{{ $data->selasa }}</td>
+                                    <td style="background-color: @if(!empty($data->rabu)) greenyellow @else red @endif">{{ $data->rabu }}</td>
+                                    <td style="background-color: @if(!empty($data->kamis)) greenyellow @else red @endif">{{ $data->kamis }}</td>
+                                    <td style="background-color: @if(!empty($data->jumat)) greenyellow @else red @endif">{{ $data->jumat }}</td>
+                                    <td style="background-color: @if(!empty($data->sabtu)) greenyellow @else red @endif">{{ $data->sabtu }}</td>
+                                    <td style="background-color: @if(!empty($data->minggu)) greenyellow @else red @endif">{{ $data->minggu }}</td>
                                     </tbody>
                                     <tfoot>
-                                        <td colspan="7" style="font-weight: bold">
-                                            Durasi mengajar : {{ $data->durasi }}
-                                        </td>
+                                    <td colspan="7" style="font-weight: bold">
+                                        Durasi mengajar : {{ $data->durasi }}
+                                    </td>
                                     </tfoot>
                                 </table>
                             </div>
                             <div class="timeline-footer">
-                                <form action="{{ url('proses-booking/'.$data->id) }}" method="post" >
+                                <form action="{{ url('proses-booking/'.$data->id) }}" method="post">
                                     {{ csrf_field() }}
                                     @method('put')
-                                    <button class="btn btn-primary btn-sm" name="status_tutor" value="true" onclick="return confirm('Apakah anda akan menanggapi permintaan dari {{ $data->linkToCustomer->name }} ... ?')">Terima Permintaan</button>
-                                    <button class="btn btn-danger btn-sm" name="status_tutor" value="denied" onclick="return confirm('Apakah anda akan menolak permintaan dari {{ $data->linkToCustomer->name }} ... ?')">Menolak Permintaan</button>
+                                    @if($data->status_tutor=='false')
+                                        <button class="btn btn-primary btn-sm" name="status_tutor" value="true"
+                                                onclick="return confirm('Apakah anda akan menanggapi permintaan dari {{ $data->linkToCustomer->name }} ... ?')">
+                                            Terima Permintaan
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" name="status_tutor" value="denied"
+                                                onclick="return confirm('Apakah anda akan menolak permintaan dari {{ $data->linkToCustomer->name }} ... ?')">
+                                            Menolak Permintaan
+                                        </button>
+                                    @else
+                                        @if($data->status_booking=='berjalan')
+                                            <button type="button" class="btn btn-info btn-lg" name="status_booking"
+                                                    value="selesai" onclick="alert('Status sedang berjalan')"><i
+                                                        class="fa fa-clock"></i> Sedang Berjalan
+                                            </button>
+                                        @endif
+                                    @endif
                                 </form>
                             </div>
                         </div>
