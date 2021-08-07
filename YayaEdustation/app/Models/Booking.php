@@ -14,4 +14,16 @@ class Booking extends Model
     public function linkToCustomer(){
         return $this->belongsTo('App\Models\User','id_cs');
     }
+
+    public function linkToTutor(){
+        return $this->belongsTo('App\Models\User','id_tutor');
+    }
+
+    public function linkToKursus(){
+        return $this->belongsTo('App\Models\Kursus','id_kursus');
+    }
+
+    public function linkToMannyMateri(){
+        return $this->hasMany('App\Models\Materi','id_kursus','id_kursus');
+    }
 }

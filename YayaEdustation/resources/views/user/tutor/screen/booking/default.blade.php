@@ -6,15 +6,7 @@
 
 @stop
 
-@section('page_header')
-    @include('user.tutor.include.header',[
-    'title'=>'Daftar Booking',
-         'breadcrumb'=> [
-                'Home'=>'#',
-                'Materi'=>'materi',
-         ]
-    ])
-@stop
+
 
 @section('content')
     <div class="row">

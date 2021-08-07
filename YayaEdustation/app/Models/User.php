@@ -54,4 +54,12 @@ class User extends Authenticatable
     public function linkToPengalaman(){
         return $this->hasMany('App\Models\PengalamanMengajar','id_users','id');
     }
+
+    public function linkToProfileCs(){
+        return $this->hasOne(CustomerProfile::class,'id_user','id');
+    }
+
+    public function linkToMannyBookings(){
+        return $this->hasMany(Booking::class,'id_tutor','id');
+    }
 }

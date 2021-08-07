@@ -3,6 +3,7 @@
 use App\Http\Controllers\Main\Customer\Course;
 use App\Http\Controllers\Main\System\Message;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Main\Customer\WebView;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,13 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    Session::put('id_users',1);
-    Session::put('menu','home');
-    return view('webview.index');
-});
+Route::get('/',[WebView::class,'index']);
 
-Route::post('search-by', [App\Http\Controllers\Frontend\HomeController::class,'search_tutor']);
+Route::post('course', [Course::class,'filter_course']);
 
 Route::get('about', function () {
     Session::put('menu','about');
