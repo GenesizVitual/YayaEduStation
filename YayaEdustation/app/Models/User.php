@@ -62,4 +62,7 @@ class User extends Authenticatable
     public function linkToMannyBookings(){
         return $this->hasMany(Booking::class,'id_tutor','id');
     }
+    public function linkToMannyBooking(){
+        return $this->hasMany(Booking::class,'id_cs','id');
+    }
 }

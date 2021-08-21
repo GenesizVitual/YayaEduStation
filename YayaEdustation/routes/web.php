@@ -4,6 +4,7 @@ use App\Http\Controllers\Main\Customer\Course;
 use App\Http\Controllers\Main\System\Message;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Main\Customer\WebView;
+use App\Http\Controllers\Main\System\Reglog;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,3 +71,5 @@ Route::get('cek-mail', function(){
 });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('sign-out',[Reglog::class,'sign_out']);

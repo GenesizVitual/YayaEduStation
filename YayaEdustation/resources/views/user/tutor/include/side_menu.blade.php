@@ -42,5 +42,13 @@
                 </p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{ url('sign-out') }}" class="nav-link" onclick="return confirm('Apakah anda yakin akan keluar..?')">
+                <i class="nav-icon fas fa-sign-out-alt"></i>
+                <p>
+                    Keluar
+                </p>
+            </a>
+        </li>
     </ul>
 </nav>

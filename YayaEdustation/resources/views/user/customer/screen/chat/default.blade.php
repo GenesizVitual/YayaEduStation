@@ -1,4 +1,4 @@
-@extends('user.tutor.base')
+@extends('user.customer.base')
 
 @section('css')
     <!-- Daterange picker -->
@@ -12,7 +12,7 @@
     'title'=>"Customer Chat",
          'breadcrumb'=> [
                 'Home'=>'#',
-                'Chat'=>'Chat',
+                'Chat'=>'customer-chat',
          ]
     ])
 @stop
@@ -36,14 +36,17 @@
                                              onclick="load_chat('{{ $customer[0]->no_unique }}')">
                                             <div class="chat_people">
                                                 <div class="chat_img"><img class="img-circle" style="height: 50px"
-                                                                @if(!empty($customer[0]->linkToIdUser->linkToProfileCs->foto_profile))
-                                                                    src="{{ asset('user/customer/photo/'.$customer[0]->linkToIdUser->linkToProfileCs->foto_profile) }}"
-                                                                @endif
-                                                            alt="sunil">
+                                                        @if(empty($customer[0]->linkFromIdUser->linkToProfileUser->foto))
+                                                        src="https://ptetutorials.com/images/user-profile.png"
+                                                        @else
+                                                        src="{{ asset('user/tutor/photo/'.$customer[0]->linkFromIdUser->linkToProfileUser->foto) }}"
+                                                        @endif
+                                                        alt="sunil">
                                                 </div>
                                                 <div class="chat_ib">
-                                                    <h5>{{ $customer[0]->linkToIdUser->name }} <span
-                                                                class="chat_date">{{ date('d M', strtotime($customer[0]->created_at)) }}</span>
+                                                    <h5>{{ $customer[0]->linkFromIdUser->linkToProfileUser->nama }}
+                                                        <span
+                                                            class="chat_date">{{ date('d M', strtotime($customer[0]->created_at)) }}</span>
                                                     </h5>
                                                     <p>{{ $customer[0]->content }}</p>
                                                 </div>
@@ -64,9 +67,11 @@
                                     <input type="hidden" name="no_unique" id="no_unique">
                                     <input type="hidden" name="id_kursus" id="id_kursus">
                                     <div class="input_msg_write">
-                                        <input type="text" class="write_msg" name="content" placeholder="Type a message"/>
-                                        <button class="msg_send_btn" id="send_chat" type="button"><i class="fa fa-comments"
-                                                                                      aria-hidden="true"></i></button>
+                                        <input type="text" class="write_msg" name="content"
+                                               placeholder="Type a message"/>
+                                        <button class="msg_send_btn" id="send_chat" type="button"><i
+                                                class="fa fa-comments"
+                                                aria-hidden="true"></i></button>
                                     </div>
                                 </div>
                             </form>

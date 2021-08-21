@@ -18,4 +18,6 @@ class MessageModel extends Model
     public function linkFromIdUser(){
         return $this->belongsTo('App\Models\User', 'to_id');
     }
+
+
 }

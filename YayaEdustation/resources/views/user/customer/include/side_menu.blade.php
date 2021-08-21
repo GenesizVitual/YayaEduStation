@@ -11,7 +11,14 @@
                 </p>
             </a>
         </li>
-
+        <li class="nav-item">
+            <a href="{{ url('customer-profile') }}" class="nav-link">
+                <i class="nav-icon fas fa-user"></i>
+                <p>
+                    Profile
+                </p>
+            </a>
+        </li>
         <li class="nav-item">
             <a href="{{ url('daftar-booking-tutor') }}" class="nav-link">
                 <i class="nav-icon fas fa-bookmark"></i>
@@ -20,6 +27,23 @@
                 </p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{ url('customer-chat') }}" class="nav-link">
+                <i class="nav-icon fas fa-comment"></i>
+                <p>
+                    Chat
+                </p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{ url('sign-out') }}" class="nav-link" onclick="return confirm('Apakah anda yakin akan keluar..?')">
+                <i class="nav-icon fas fa-sign-out-alt"></i>
+                <p>
+                    Keluar
+                </p>
+            </a>
+        </li>
+
 {{--        <li class="nav-item has-treeview menu-open">--}}
 {{--            <a href="#" class="nav-link active">--}}
 {{--                <i class="nav-icon fas fa-tachometer-alt"></i>--}}
