@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf48c-fc01-434a-8bf6-063c0b7bb1f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helper/ProfilCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/System/data/Chat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/chat/default.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/chat/js.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/chat/parsial/incoming_msg.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/chat/parsial/outgoing_msg.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/CustomerProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/CustomerProfile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Reglog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Reglog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MessageModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MessageModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/include/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/include/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/include/side_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/include/side_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/include/sidebar_user_panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/include/sidebar_user_panel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/dashboard/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/profile/update_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/profile/update_profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/tutor/include/side_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/tutor/include/side_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/tutor/screen/chat/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/chat/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/tutor/screen/chat/parsial/incoming_msg.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/chat/parsial/incoming_msg.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -720,7 +698,7 @@
       <workItem from="1628736976984" duration="50000" />
       <workItem from="1629514596887" duration="4025000" />
       <workItem from="1629528311472" duration="1952000" />
-      <workItem from="1629531730662" duration="2066000" />
+      <workItem from="1629531730662" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="Penambahan Booking tutor">
       <created>1627383149670</created>
