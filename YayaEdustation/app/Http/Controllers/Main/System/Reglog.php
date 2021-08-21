@@ -87,4 +87,9 @@ class Reglog extends Controller
             return "Email konfirmasi telah berhasil diemail anda";
         }
     }
+
+    public function sign_out(Request $req){
+        $req->session()->flush();
+        return redirect('/');
+    }
 }
