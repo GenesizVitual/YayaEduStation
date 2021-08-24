@@ -7,6 +7,7 @@ use App\Http\Controllers\Main\Customer\BookingController;
 use App\Http\Controllers\Main\Customer\DashboardCs;
 use App\Http\Controllers\Main\Customer\CustomerProfile;
 use App\Http\Controllers\Main\Customer\CustomerChat;
+use App\Http\Controllers\Main\Customer\CustomerJadwal;
 
 Route::post('signup', [Reglog::class, 'registrasi']);
 Route::post('login-procced', [Reglog::class, 'login_procced']);
@@ -23,3 +24,5 @@ Route::get('dashboard-customer', [DashboardCs::class, 'index']);
 Route::get('customer-profile', [CustomerProfile::class, 'profile_edit']);
 Route::put('customer-profile/{params}', [CustomerProfile::class, 'update_profile']);
 Route::get('schedule-customer/{params}', [BookingController::class, 'schedule_customer']);
+Route::get('jadwal-kursus', [CustomerJadwal::class,'index']);
+Route::get('load-jadwal-kursus', [CustomerJadwal::class,'data_schedule']);

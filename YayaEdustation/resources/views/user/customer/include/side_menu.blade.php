@@ -27,6 +27,7 @@
                 </p>
             </a>
         </li>
+
         <li class="nav-item">
             <a href="{{ url('customer-chat') }}" class="nav-link">
                 <i class="nav-icon fas fa-comment"></i>
@@ -35,6 +36,15 @@
                 </p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{ url('jadwal-kursus') }}" class="nav-link">
+                <i class="nav-icon fas fa-calendar"></i>
+                <p>
+                    Jadwal Kursus
+                </p>
+            </a>
+        </li>
+
         <li class="nav-item">
             <a href="{{ url('sign-out') }}" class="nav-link" onclick="return confirm('Apakah anda yakin akan keluar..?')">
                 <i class="nav-icon fas fa-sign-out-alt"></i>
