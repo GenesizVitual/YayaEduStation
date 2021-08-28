@@ -13,14 +13,14 @@ class Schedule
 {
     //
 
-    private $schedule_key = [
-        'Sunday' => 'minggu',
-        'Monday' => 'senin',
-        'Tuesday' => 'selasa',
-        'Wednesday' => 'rabu',
-        'Thursday' => 'kamis',
-        'Friday' => 'jumat',
-        'Saturday' => 'sabtu',
+    public $schedule_key = [
+        'Sun' => 'minggu',
+        'Mon' => 'senin',
+        'Tue' => 'selasa',
+        'Wed' => 'rabu',
+        'Thu' => 'kamis',
+        'Fri' => 'jumat',
+        'Sat' => 'sabtu',
     ];
 
     public function data($array) // find data one data
@@ -46,10 +46,11 @@ class Schedule
         return $data;
     }
 
-    private function reStructur($dataArray){
+    private function reStructur($dataArray)
+    {
         $container = [];
-        foreach ($dataArray as $key=> $data){
-            foreach ($data as $item){
+        foreach ($dataArray as $key => $data) {
+            foreach ($data as $item) {
                 $container[] = $item;
             }
         }
@@ -66,7 +67,7 @@ class Schedule
             $n_date = date($i . '-m-Y');
             $colomn = [
                 'day_num' => date('d', strtotime($n_date)),
-                'day_name' => date('l', strtotime($n_date)),
+                'day_name' => date('D', strtotime($n_date)),
                 'date' => date('Y-m-d', strtotime($n_date)),
             ];
             $calender[] = $colomn;
@@ -99,26 +100,27 @@ class Schedule
     private function setSchedule($array_day, $day_detect, $action = null)
     {
         $collection = [];
-        $index=1;
+        $index = 1;
         foreach ($array_day as $key => $data) {
             if ($day_detect[$data['day_name']]['status'] == 'true') {
                 $obj = new \stdClass();
                 $obj->id = $day_detect[$data['day_name']]['id'];
                 $obj->index = $index++;
-                $obj->title = 'Jadwal Les Private '.$day_detect[$data['day_name']]['pelajaran'];
+                $obj->description = $data['day_name'];
+                $obj->title = 'Jadwal Les Private ' . $day_detect[$data['day_name']]['pelajaran'];
 
                 if ($action != 'aktif') {
                     $obj->start = $data['date'];
                     $obj->rendering = 'background';
-                }else{
-                    $obj->start = $data['date'].' '.$day_detect[$data['day_name']]['time'];
+                } else {
+                    $obj->start = $data['date'] . ' ' . $day_detect[$data['day_name']]['time'];
                     $data_start_hours = date('H:i', strtotime($obj->start));
-                    $duration = explode(':',date('H:i', strtotime($day_detect[$data['day_name']]['durasi'])));
+                    $duration = explode(':', date('H:i', strtotime($day_detect[$data['day_name']]['durasi'])));
                     $hours = $duration[0];
                     $menit = $duration[1];
-                    $end = date('Y-m-d H:i', strtotime($obj->start.' +'.$hours.' hours +'.$menit.' minutes'));
-                  $obj->end = $end;
-               }
+                    $end = date('Y-m-d H:i', strtotime($obj->start . ' +' . $hours . ' hours +' . $menit . ' minutes'));
+                    $obj->end = $end;
+                }
                 $obj->color = '#17a2b8';
                 $collection[] = $obj;
             }
