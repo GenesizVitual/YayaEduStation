@@ -44,6 +44,14 @@
                 </p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{ url('absen-customer') }}" class="nav-link">
+                <i class="nav-icon fas fa-check-circle"></i>
+                <p>
+                    Kehadiran
+                </p>
+            </a>
+        </li>
 
         <li class="nav-item">
             <a href="{{ url('sign-out') }}" class="nav-link" onclick="return confirm('Apakah anda yakin akan keluar..?')">

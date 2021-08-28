@@ -18,4 +18,12 @@ class RenderParsial
     public static function render_partial_chat($view,$array){
         return (string)View::make($view, array('data'=>$array));
     }
+
+    public static function render_bookings($view,$array){
+        return (string)View::make($view, array('booking'=>$array));
+    }
+
+    public static function render_view($view,$array){
+        return (string)View::make($view, $array);
+    }
 }
