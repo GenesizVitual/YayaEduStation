@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf48c-fc01-434a-8bf6-063c0b7bb1f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/parcial/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/parcial/jadwal.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/CustomerJadwal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/CustomerJadwal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/data/Schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/data/Schedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/utils/RenderParsial.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/utils/RenderParsial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/include/notifikasi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/include/notifikasi.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/include/side_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/include/side_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/index_schedule.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/index_schedule.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/AbsenCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/AbsenCustomer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -714,7 +706,9 @@
       <workItem from="1629781023581" duration="27000" />
       <workItem from="1629796503069" duration="1539000" />
       <workItem from="1630113592476" duration="9013000" />
-      <workItem from="1630125128347" duration="7819000" />
+      <workItem from="1630125128347" duration="7956000" />
+      <workItem from="1630201011077" duration="8248000" />
+      <workItem from="1630211688018" duration="5752000" />
     </task>
     <task id="LOCAL-00001" summary="Penambahan Booking tutor">
       <created>1627383149670</created>
