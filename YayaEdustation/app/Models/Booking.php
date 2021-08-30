@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Absen;
 
 class Booking extends Model
 {
@@ -25,5 +26,9 @@ class Booking extends Model
 
     public function linkToMannyMateri(){
         return $this->hasMany('App\Models\Materi','id_kursus','id_kursus');
+    }
+
+    public function linkToMannyAbsen(){
+        return $this->hasMany(Absen::class,'id_bookings');
     }
 }

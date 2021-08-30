@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf48c-fc01-434a-8bf6-063c0b7bb1f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Admin/DetailAbsen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/AbsenTutor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/detail_kehadiran/index_detail_kehadiran.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/detail_kehadiran/index_detail_kehadiran.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/schedule/index_schedule.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/schedule/parcial/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/schedule/parcial/jadwal.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/AbsenCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/AbsenCustomer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/data/Schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/data/Schedule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Reglog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Reglog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/JadwalTutor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/JadwalTutor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Booking.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/parcial/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/parcial/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/tutor/include/side_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/tutor/include/side_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/yaya/tutor/tutor_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/yaya/tutor/tutor_route.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,12 +517,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/tutor/tutor_route.php&#10;Message&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/System/Message.php&#10;Messa&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Models/MessageModel.php&#10;Custome&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/customer/customer_route.php&#10;Tut&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/tutor/tutor_route.php&#10;dashboar&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Dashboard.php&#10;Dashboard&#9;null&#9;null&#10;web&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/web.php&#10;tutor&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/tutor/tutor_route.php&#10;custo&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/customer/customer_route.php&#10;Pendidikan&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Pendidikan.php&#10;route&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/customer/customer_route.php&#10;Pro&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Models/ProfileTutor.php&#10;Use&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Models/User.php&#10;Penga&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/PengalamanMengajar.php&#10;Profilt&#9;null&#9;null&#10;User&#9;null&#9;null&#10;courses&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/resources/views/webview/courses.blade.php&#10;Course&#9;null&#9;null&#10;custom&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/customer/customer_route.php&#10;ku&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Kursus.php&#10;Jadwal&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/JadwalTutor.php&#10;Kur&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Kursus.php&#10;k&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Kursus.php&#10;Card&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/resources/views/user/tutor/screen/course/parsial/CardPembelajaran.blade.php&#10;sert&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Sertifikat.php&#10;Sert&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/Sertifikat.php&#10;Prof&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/Main/Tutor/ProfilTutor.php&#10;Side&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/resources/views/user/tutor/include/side_menu.blade.php&#10;user&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Models/User.php&#10;Ped&#9;null&#9;null&#10;tuto&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/tutor/tutor_route.php&#10;Profi&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/database/migrations/2021_06_04_080128_create_profile_tutors_table.php&#10;cu&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/routes/yaya/customer/customer_route.php&#10;Home&#9;FILE&#9;file://E:/Sample/Project/Platform_belajar_online/YayaEduStation/YayaEdustation/app/Http/Controllers/HomeController.php&#10;Auth&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/user/customer/screen" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -516,11 +532,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\customer\screen" />
+      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\tutor\screen" />
       <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\customer\screen\kehadiran" />
       <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\customer\screen\schedule\parcial" />
       <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\customer\screen\schedule" />
-      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\customer\screen" />
-      <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\resources\views\user\customer\screen\booking" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Sample\Project\Platform_belajar_online\YayaEduStation\YayaEdustation\app\Http\Controllers\Main\Customer" />
@@ -709,6 +725,12 @@
       <workItem from="1630125128347" duration="7956000" />
       <workItem from="1630201011077" duration="8248000" />
       <workItem from="1630211688018" duration="5752000" />
+      <workItem from="1630287583824" duration="41000" />
+      <workItem from="1630292364928" duration="83000" />
+      <workItem from="1630292790551" duration="600000" />
+      <workItem from="1630293509051" duration="2221000" />
+      <workItem from="1630297497356" duration="4831000" />
+      <workItem from="1630303560858" duration="4057000" />
     </task>
     <task id="LOCAL-00001" summary="Penambahan Booking tutor">
       <created>1627383149670</created>
@@ -782,6 +804,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Penambahan Booking tutor" />
     <option name="LAST_COMMIT_MESSAGE" value="Penambahan Booking tutor" />
   </component>

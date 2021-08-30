@@ -2,9 +2,14 @@
     <div class="form-group row">
         <table>
             <tr>
-                <td>Nama Tutor</td>
+                <td>Nama Customer</td>
                 <td style="width: 20px">:</td>
-                <td>{{ $booking->linkToTutor->linkToProfileUser->nama }}</td>
+                <td>{{ $booking->linkToCustomer->name }}</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td style="width: 20px">:</td>
+                <td>{{ $booking->linkToCustomer->linkToProfileCs->alamat }}</td>
             </tr>
             <tr>
                 <td>Pelajaran</td>

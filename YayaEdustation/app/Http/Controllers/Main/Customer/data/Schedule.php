@@ -34,7 +34,12 @@ class Schedule
 
     public function data_schedule()
     {
-        $booking_schedule = Booking::all()->where('id_cs', Session::get('id_customer'));
+        if(!empty(Session::get('id_customer'))){
+            $booking_schedule = Booking::all()->where('id_cs', Session::get('id_customer'));
+        }
+        if(!empty(Session::get('id_users'))){
+            $booking_schedule = Booking::all()->where('id_tutor', Session::get('id_users'));
+        }
         $array_date = $this->getAllDayOnCurrentMonth();
         $data_schedule = [];
         foreach ($booking_schedule as $data_booking) {

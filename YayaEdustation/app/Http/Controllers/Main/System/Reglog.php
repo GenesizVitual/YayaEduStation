@@ -60,7 +60,7 @@ class Reglog extends Controller
         $model = User::where('email', $req->email)->first();
         if (!empty($model)) {
             if (Hash::check($req->password, $model->password)) {
-                Session::get('id_customer', $model->id);
+//                Session::get('id_customer', $model->id);
                 if ($model->level == '1') {
                     Session::put('id_customer', $model->id);
                     return redirect('course')->with('message_info', 'Terimah kasih anda telah mendaftar sebagai customer');
@@ -89,6 +89,8 @@ class Reglog extends Controller
     }
 
     public function sign_out(Request $req){
+        $req->session()->forget('id_users');
+        $req->session()->forget('id_customer');
         $req->session()->flush();
         return redirect('/');
     }
