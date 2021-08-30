@@ -12,12 +12,16 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Main\Tutor\Sertifikat;
 use App\Http\Controllers\Main\System\Message;
 use App\Http\Controllers\Main\Tutor\BookingTutor;
+use App\Http\Controllers\Main\Tutor\AbsenTutor;
+use App\Http\Controllers\Main\Admin\DetailAbsen;
 
 Route::get('cek', function () {
     return "text";
 });
 Route::get('dashboard-tutor', [dashboard_tutor::class, 'index']);
 Route::resource('jadwal-tutor',JadwalTutor::class);
+Route::get('load-jadwal-kursus-tutor',[JadwalTutor::class,'data_schedule']);
+Route::post('load-jadwal-kursus-tutor',[JadwalTutor::class,'get_parcial_view']);
 Route::resource('kursus', Kursus::class);
 Route::get('kursus/data', [Kursus::class,'data']);
 Route::resource('materi',Materi::class);
@@ -33,4 +37,5 @@ Route::resource('tutor', RegisterTutor::class);
 Route::put('upload-photo-tutor/{params}', [ProfilTutor::class, 'upload_foto']);
 Route::get('daftar-booking',[BookingTutor::class,'index']);
 Route::put('proses-booking/{params}',[BookingTutor::class,'update']);
-//Route::
+Route::resource('absen-tutor',AbsenTutor::class);
+Route::resource('detail-absen', DetailAbsen::class);

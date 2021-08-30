@@ -3,10 +3,13 @@
 namespace App\Http\Controllers\Main\Tutor;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\utils\RenderParsial;
+use App\Models\Booking;
 use Illuminate\Http\Request;
 use App\Models\JadwalTutor as model_jadwal_tutor;
 use Symfony\Component\HttpFoundation\Response;
 use Session;
+use App\Http\Controllers\Main\Customer\data\Schedule;
 
 
 class JadwalTutor extends Controller
@@ -17,6 +20,33 @@ class JadwalTutor extends Controller
     public function __construct()
     {
         $this->current_years = date('Y');
+    }
+
+    public function index(){
+        return view('user.tutor.screen.schedule.index_schedule');
+    }
+
+    public function data_schedule(){
+        $schedule = new Schedule();
+        $data = $schedule->data_schedule();
+        return response()->json($data);
+    }
+
+    public function get_parcial_view(Request $req){
+        $model_bookings = Booking::where('id_tutor', Session::get('id_users'))->find($req->kode);
+        $schedule = new Schedule();
+        $day_select = $schedule->schedule_key[$req->day];
+        $data_to_atur_jadwal = [
+            'day_option'=> $schedule->schedule_key,
+            'day_select'=>$day_select,
+            'time'=>$model_bookings->$day_select,
+            'booking'=> $model_bookings
+        ];
+        $data = [
+            'pDetail'=> RenderParsial::render_bookings('user.tutor.screen.schedule.parcial.detail', $model_bookings),
+            'pAturJadwal'=> RenderParsial::render_view('user.tutor.screen.schedule.parcial.jadwal', $data_to_atur_jadwal)
+        ];
+        return response()->json($data);
     }
 
     public function show($kode)

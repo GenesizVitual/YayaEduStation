@@ -43,6 +43,22 @@
             </a>
         </li>
         <li class="nav-item">
+            <a href="{{ url('jadwal-tutor') }}" class="nav-link">
+                <i class="nav-icon fas fa-calendar"></i>
+                <p>
+                    Jadwal
+                </p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{ url('absen-tutor') }}" class="nav-link">
+                <i class="nav-icon fas fa-check-circle"></i>
+                <p>
+                    Kehadiran
+                </p>
+            </a>
+        </li>
+        <li class="nav-item">
             <a href="{{ url('sign-out') }}" class="nav-link" onclick="return confirm('Apakah anda yakin akan keluar..?')">
                 <i class="nav-icon fas fa-sign-out-alt"></i>
                 <p>
@@ -50,5 +66,6 @@
                 </p>
             </a>
         </li>
+
     </ul>
 </nav>

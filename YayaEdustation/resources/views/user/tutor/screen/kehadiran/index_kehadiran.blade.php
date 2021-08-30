@@ -1,11 +1,11 @@
-@extends('user.customer.base')
+@extends('user.tutor.base')
 
 @section('css')
 
 @stop
 
 @section('page_header')
-    @include('user.customer.include.header')
+    @include('user.tutor.include.header')
 @stop
 
 @section('content')
@@ -27,32 +27,31 @@
                                             <div class="card-body">
                                                 <h4 style="text-decoration: underline">{{ ucfirst($booking->linkToKursus->linkToPembelajaran->pelajaran) }}</h4>
                                                 <p>
-                                                    Nama Tutor : {{ $booking->linkToTutor->linkToProfileUser->nama }}
+                                                    Nama Customer : {{ $booking->linkToCustomer->name }}
                                                     <br>
                                                     Durasi : {{ date('H:i:s', strtotime($booking->durasi)) }}
                                                     <br>
                                                     Pertemuan Ke: Belum ada
                                                 </p>
                                                 <button class="btn btn-warning">
-                                                    @php
-                                                        $filter_absen = $booking->linkToMannyAbsen->where('date',$current_date)->first();
-                                                        if(!empty($filter_absen))
-                                                        {
-                                                            if($filter_absen->status_tt=='belum absen'){
-                                                                echo 'Tutor belum absen';
-                                                            }else if($filter_absen->status_tt=='hadir'){
-                                                                echo 'Tutor telah absen';
-                                                            }else if($filter_absen->status_tt=='akhiri'){
-                                                                echo 'Tutor telah mengakhiri pembelajaran hari ini';
+                                                @php
+                                                    $filter_absen = $booking->linkToMannyAbsen->where('date',$current_date)->first();
+                                                    if(!empty($filter_absen))
+                                                    {
+                                                            if($filter_absen->status_cs=='belum absen'){
+                                                                echo 'Customer belum absen';
+                                                            }else if($filter_absen->status_cs=='hadir'){
+                                                                echo 'Customer telah absen';
+                                                            }else if($filter_absen->status_cs=='akhiri'){
+                                                                echo 'Customer telah mengakhiri pembelajaran hari ini';
                                                             }
-                                                        }else{
-                                                            echo 'Hari ini tidak ada jadwal';
-                                                        }
-                                                    @endphp
+                                                    }else{
+                                                        echo 'Hari ini tidak ada jadwal';
+                                                    }
+                                                @endphp
                                                 </button>
                                                 @if(!empty(Session::get('status_absen')))
-                                                    <button
-                                                        class="btn btn-lg btn-warning">{{ Session::get('status_absen') }}</button>
+                                                    <button class="btn btn-lg btn-warning">{{ Session::get('status_absen') }}</button>
                                                 @endif
                                             </div>
                                         </div>
@@ -61,12 +60,10 @@
                                         <div class="row">
                                             @foreach($day as $key=> $item_day)
                                                 <div class="col-md-3" style="margin-bottom: 20px;">
-                                                    <form action="{{ url('absen-customer') }}" method="post"
-                                                          style="width: 100%">
+                                                    <form action="{{ url('absen-tutor') }}" method="post" style="width: 100%">
                                                         {{ csrf_field() }}
-                                                        <input type="hidden" name="id_booking"
-                                                               value="{{ $booking->id }}"/>
-                                                        <input type="hidden" name="date" value="{{ $current_date }}"/>
+                                                        <input type="hidden" name="id_booking" value="{{ $booking->id }}"/>
+                                                        <input type="hidden" name="date" value="{{ $current_date }}" />
                                                         <button
                                                             class="btn @if(!empty($booking->$item_day)) btn-success @else btn-danger @endif"
                                                             style="width: 100%" type="submit">
@@ -92,8 +89,7 @@
                                                                         <i class="fa fa-2x" id="div1"></i> <label
                                                                             style="font-size: 30px"> Akhiri</label>
                                                                     </div>
-                                                                    <input type="hidden" name="status_cs"
-                                                                           value="akhiri">
+                                                                    <input type="hidden" name="status_cs" value="akhiri">
                                                                 @endif
                                                             @endif
                                                             @else Tidak ada
@@ -108,7 +104,7 @@
                                                 <div class="card bg-fuchsia d-flex">
                                                     <div class="card-body">
                                                         <h5>Daftar Kehadiran</h5>
-                                                        <p>    <a href="{{ url('detail-absen-kehadiran/'.$booking->id) }}" style="color: white">Lihat detail</a>
+                                                        <p>    <a href="{{ url('detail-absen/'.$booking->id) }}" style="color: white">Lihat detail</a>
                                                         </p>
                                                     </div>
                                                 </div>
