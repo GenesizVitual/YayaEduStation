@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3cf48c-fc01-434a-8bf6-063c0b7bb1f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Admin/DetailAbsen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/AbsenTutor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/detail_kehadiran/index_detail_kehadiran.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/detail_kehadiran/index_detail_kehadiran.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/schedule/index_schedule.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/schedule/parcial/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/schedule/parcial/jadwal.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/data/Schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/data/Schedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Reglog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/System/Reglog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/JadwalTutor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/JadwalTutor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Booking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/AbsenCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/AbsenCustomer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/CustomerJadwal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Customer/CustomerJadwal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/AbsenTutor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/Tutor/AbsenTutor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/base.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/parcial/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/customer/screen/schedule/parcial/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/tutor/include/side_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/tutor/include/side_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/yaya/customer/customer_route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/yaya/tutor/tutor_route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/yaya/tutor/tutor_route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/tutor/screen/kehadiran/index_kehadiran.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/tutor/screen/kehadiran/index_kehadiran.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -731,6 +721,8 @@
       <workItem from="1630293509051" duration="2221000" />
       <workItem from="1630297497356" duration="4831000" />
       <workItem from="1630303560858" duration="4057000" />
+      <workItem from="1630376926966" duration="5163000" />
+      <workItem from="1630388421153" duration="4347000" />
     </task>
     <task id="LOCAL-00001" summary="Penambahan Booking tutor">
       <created>1627383149670</created>
