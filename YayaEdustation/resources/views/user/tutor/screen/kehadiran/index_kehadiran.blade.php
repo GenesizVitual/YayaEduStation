@@ -39,19 +39,24 @@
                                                     if(!empty($filter_absen))
                                                     {
                                                             if($filter_absen->status_cs=='belum absen'){
-                                                                echo 'Customer belum absen';
+                                                                echo 'Menuggu Customer absen';
                                                             }else if($filter_absen->status_cs=='hadir'){
                                                                 echo 'Customer telah absen';
                                                             }else if($filter_absen->status_cs=='akhiri'){
                                                                 echo 'Customer telah mengakhiri pembelajaran hari ini';
                                                             }
                                                     }else{
-                                                        echo 'Hari ini tidak ada jadwal';
+                                                         $new_day = $day[$current_day];
+                                                            if(!empty($booking->$new_day)){
+                                                                echo 'Hari ini ada kursus';
+                                                            }else{
+                                                                echo 'Tidak Ada Kursus';
+                                                            }
                                                     }
                                                 @endphp
                                                 </button>
                                                 @if(!empty(Session::get('status_absen')))
-                                                    <button class="btn btn-lg btn-warning">{{ Session::get('status_absen') }}</button>
+                                                    <button class="btn btn-lg btn-warning" style="margin-top: 5px;">{{ Session::get('status_absen') }}</button>
                                                 @endif
                                             </div>
                                         </div>
@@ -78,18 +83,26 @@
                                                                         Waktu Kursus: {{ $booking->$item_day }}
                                                                         <br> Waktu selesai : {{ $time_end }}
                                                             @else
-                                                                @if(strtotime($current_time)>=strtotime($time_end))
-                                                                    <div class="form-group">
+                                                                @if((strtotime($current_time_on)>=strtotime($booking->$item_day)) && strtotime($current_time_on)<=strtotime($time_end))
+                                                                <div class="form-group">
                                                                         <i class="fa fa-2x" id="div1"></i> <label
-                                                                            style="font-size: 30px">Mulai Absen</label>
+                                                                            style="font-size: 20px">Mulai Absen</label>
                                                                     </div>
-                                                                    <input type="hidden" name="status_cs" value="hadir">
-                                                                @else
+                                                                    <input type="hidden" name="status_tt" value="hadir">
+                                                                @elseif(strtotime($current_time_on)>=strtotime($time_end))
                                                                     <div class="form-group">
                                                                         <i class="fa fa-2x" id="div1"></i> <label
                                                                             style="font-size: 30px"> Akhiri</label>
                                                                     </div>
-                                                                    <input type="hidden" name="status_cs" value="akhiri">
+                                                                    <input type="hidden" name="status_tt"
+                                                                           value="akhiri">
+                                                                @else
+                                                                    <div class="form-group">
+                                                                        <i class="fa fa-1x" id="div1"></i> <label
+                                                                            style="font-size: 15px">Absen Belum dibuka</label>
+                                                                    </div>
+                                                                    <input type="hidden" name="status_tt"
+                                                                           value="belum absen">
                                                                 @endif
                                                             @endif
                                                             @else Tidak ada

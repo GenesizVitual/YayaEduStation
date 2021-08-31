@@ -49,9 +49,9 @@ class CustomerJadwal extends Controller
             return redirect()->back()->with('message_fail','Hari dan waktu anda telah anda pilih');
         }
 
-        if($daycheck){
-            return redirect()->back()->with('message_fail','Pertemuan mengajar tutor hanya bisa dilakukan sekali');
-        }
+//        if($daycheck){
+//            return redirect()->back()->with('message_fail','Pertemuan mengajar tutor hanya bisa dilakukan sekali');
+//        }
 
         $model_booking->$hari_lama = null;
         $model_booking->$hari = $req->waktu;

@@ -18,15 +18,17 @@ class AbsenCustomer extends Controller
         $model = Booking::all()->where('id_cs', Session::get('id_customer'));
         $current_day = date('D');
         $current_time = date('d-m-Y H:i');
+        $current_first = date('H:i');
         $current_date = date('Y-m-d');
-        $schedule_read = new Schedule();
+      $schedule_read = new Schedule();
         return view('user.customer.screen.kehadiran.index_kehadiran',
             [
                 'data' => $model,
                 'day' => $schedule_read->schedule_key,
                 'current_day' => $current_day,
                 'current_time' => $current_time,
-                'current_date' => $current_date
+                'current_date' => $current_date,
+                'current_time_on'=>$current_first
             ]);
     }
 
@@ -42,10 +44,13 @@ class AbsenCustomer extends Controller
             [
                 'id_bookings' => $req->id_booking,
                 'date' => $req->date,
+            ],[
                 'status_cs' => $req->status_cs
             ]
         );
-
+        if($req->status_cs=='hadir'){
+            $req->status_cs = 'menghadiri';
+        }
         if ($model->save()) {
             return redirect()->back()->with('status_absen','Anda telah ' . $req->status_cs . ' kursus');
         }
