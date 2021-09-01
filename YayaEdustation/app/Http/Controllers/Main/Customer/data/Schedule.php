@@ -13,6 +13,8 @@ class Schedule
 {
     //
 
+    public $jumlah_pertemuan;
+
     public $schedule_key = [
         'Sun' => 'minggu',
         'Mon' => 'senin',
@@ -115,6 +117,7 @@ class Schedule
                 $obj->title = 'Jadwal Les Private ' . $day_detect[$data['day_name']]['pelajaran'];
 
                 if ($action != 'aktif') {
+                    $this->jumlah_pertemuan++;
                     $obj->start = $data['date'];
                     $obj->rendering = 'background';
                 } else {

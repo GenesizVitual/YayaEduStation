@@ -27,3 +27,17 @@
         <h6><i class="icon fas fa-info"></i> {{ Session::get('message_fail') }}</h6>
     </div>
 @endif
+
+@if(!empty(Session::get('message_tr_warning')))
+    <div class="alert alert-warning alert-dismissible">
+        {{--<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>--}}
+        <h6><i class="icon fas fa-info"></i> {{ Session::get('message_tr_warning') }}</h6>
+    </div>
+@endif
+
+@if(!empty(Session::get('message_tr_success')))
+    <div class="alert alert-success alert-dismissible">
+        {{--<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>--}}
+        <h6><i class="icon fas fa-info"></i> {{ Session::get('message_tr_success') }}</h6>
+    </div>
+@endif

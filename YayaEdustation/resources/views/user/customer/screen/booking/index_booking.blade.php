@@ -79,6 +79,9 @@
                                         <!-- /.description-block -->
                                     </div>
                                     <div class="col-sm-12">
+                                        <a href="{{ url('tranfer-biaya-tutor/'.$item_booking->id) }}" class="btn btn-info" style="text-align: center; width: 100%">Transfer biaya tutor</a>
+                                    </div>
+                                    <div class="col-sm-12">
                                         <a href="{{ url('daftar-booking-tutor/'.$item_booking->id) }}" class="btn btn-default" style="text-align: center; width: 100%">lihat detail</a>
                                     </div>
                                     <!-- /.col -->

@@ -57,4 +57,27 @@ class ImageUpload
             $n_file->move(public_path(self::$default_directory), self::$file_name);
         }
     }
+
+    //Todo: Cek Gambar bukti pembayaran  jika akan diupload
+    public static function Upload_tf($req, $model=null, $field){
+        $n_file = $req->$field;
+        if(!empty($model))
+        {
+            $new_file =$n_file;
+            if(!empty($new_file))
+            {
+                //cek file gambar sebelum update
+                if(file_exists(self::$default_directory.'/'.$new_file))
+                {
+                    @unlink(self::$default_directory.'/'.$new_file) ;
+                }
+            }
+        }
+
+       if(!empty($n_file))
+        {
+            self::$file_name = $n_file->getClientOriginalName();
+            $n_file->move(public_path(self::$default_directory), self::$file_name);
+        }
+    }
 }

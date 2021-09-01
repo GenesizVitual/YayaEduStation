@@ -32,4 +32,5 @@ Route::get('load-jadwal-kursus', [CustomerJadwal::class,'data_schedule']);
 Route::post('load-jadwal-kursus', [CustomerJadwal::class,'get_parcial_view']);
 Route::get('schedule-customer/{params}', [BookingController::class, 'schedule_customer']);
 Route::put('update-schedule-customer/{params}', [CustomerJadwal::class,'update_schedule_customer']);
-
+Route::get('tranfer-biaya-tutor/{params}',[BookingController::class,'transfer_biaya_tutor']);
+Route::post('tranfer-biaya-tutor/{params}',[BookingController::class,'transfer_biaya_tutor']);
