@@ -66,69 +66,82 @@
                                     </div>
                                     <div class="col-lg-9">
                                         <div class="row">
-                                            @foreach($day as $key=> $item_day)
-                                                <div class="col-md-3" style="margin-bottom: 20px;">
-                                                    <form action="{{ url('absen-customer') }}" method="post"
-                                                          style="width: 100%">
-                                                        {{ csrf_field() }}
-                                                        <input type="hidden" name="id_booking"
-                                                               value="{{ $booking->id }}"/>
-                                                        <input type="hidden" name="date" value="{{ $current_date }}"/>
-                                                        <button
-                                                            class="btn @if(!empty($booking->$item_day)) btn-success @else btn-danger @endif"
-                                                            style="width: 100%" type="submit">
-                                                            <h5>{{ ucfirst($item_day) }}</h5>
-                                                            <p>@if(!empty($booking->$item_day))
-                                                                    @php
-                                                                        $time_end='';
-                                                                        $durasi = explode(':',$booking->durasi);
-                                                                        $time_end = date('H:i', strtotime( $booking->$item_day.' +'.$durasi[0].' hours +'.$durasi[1].' minutes'));
-                                                                    @endphp
-                                                                    @if( ($key != $current_day) && strtotime($booking->$item_day) > strtotime($booking->current_time))
-                                                                        Waktu Kursus: {{ $booking->$item_day }}
-                                                                        <br> Waktu selesai : {{ $time_end }}
-                                                            @else
-                                                                @if((strtotime($current_time_on)>=strtotime($booking->$item_day)) && strtotime($current_time_on)<=strtotime($time_end))
-                                                                    <div class="form-group">
-                                                                        <i class="fa fa-2x" id="div1"></i> <label
-                                                                            style="font-size: 20px">Mulai Absen</label>
-                                                                    </div>
-                                                                    <input type="hidden" name="status_cs" value="hadir">
-                                                                @elseif(strtotime($current_time_on)>=strtotime($time_end))
-                                                                    <div class="form-group">
-                                                                        <i class="fa fa-2x" id="div1"></i> <label
-                                                                            style="font-size: 20px"> Akhiri</label>
-                                                                    </div>
-                                                                    <input type="hidden" name="status_cs"
-                                                                           value="akhiri">
+                                            @if($booking->status_transfers=='Konfirmasi pembayaran')
+                                                @foreach($day as $key=> $item_day)
+                                                    <div class="col-md-3" style="margin-bottom: 20px;">
+                                                        <form action="{{ url('absen-customer') }}" method="post"
+                                                              style="width: 100%">
+                                                            {{ csrf_field() }}
+                                                            <input type="hidden" name="id_booking"
+                                                                   value="{{ $booking->id }}"/>
+                                                            <input type="hidden" name="date" value="{{ $current_date }}"/>
+                                                            <button
+                                                                class="btn @if(!empty($booking->$item_day)) btn-success @else btn-danger @endif"
+                                                                style="width: 100%" type="submit">
+                                                                <h5>{{ ucfirst($item_day) }}</h5>
+                                                                <p>@if(!empty($booking->$item_day))
+                                                                        @php
+                                                                            $time_end='';
+                                                                            $durasi = explode(':',$booking->durasi);
+                                                                            $time_end = date('H:i', strtotime( $booking->$item_day.' +'.$durasi[0].' hours +'.$durasi[1].' minutes'));
+                                                                        @endphp
+                                                                        @if( ($key != $current_day) && strtotime($booking->$item_day) > strtotime($booking->current_time))
+                                                                            Waktu Kursus: {{ $booking->$item_day }}
+                                                                            <br> Waktu selesai : {{ $time_end }}
                                                                 @else
-                                                                    <div class="form-group">
-                                                                        <i class="fa fa-1x" id="div1"></i> <label
-                                                                            style="font-size: 15px">Absen Belum
-                                                                            dibuka</label>
-                                                                    </div>
-                                                                    <input type="hidden" name="status_cs"
-                                                                           value="belum absen">
+                                                                    @if((strtotime($current_time_on)>=strtotime($booking->$item_day)) && strtotime($current_time_on)<=strtotime($time_end))
+                                                                        <div class="form-group">
+                                                                            <i class="fa fa-2x" id="div1"></i> <label
+                                                                                style="font-size: 20px">Mulai Absen</label>
+                                                                        </div>
+                                                                        <input type="hidden" name="status_cs" value="hadir">
+                                                                    @elseif(strtotime($current_time_on)>=strtotime($time_end))
+                                                                        <div class="form-group">
+                                                                            <i class="fa fa-2x" id="div1"></i> <label
+                                                                                style="font-size: 20px"> Akhiri</label>
+                                                                        </div>
+                                                                        <input type="hidden" name="status_cs"
+                                                                               value="akhiri">
+                                                                    @else
+                                                                        <div class="form-group">
+                                                                            <i class="fa fa-1x" id="div1"></i> <label
+                                                                                style="font-size: 15px">Absen Belum
+                                                                                dibuka</label>
+                                                                        </div>
+                                                                        <input type="hidden" name="status_cs"
+                                                                               value="belum absen">
+                                                                    @endif
                                                                 @endif
-                                                            @endif
-                                                            @else Tidak ada
-                                                            kursus <br> <label></label>
-                                                            @endif
+                                                                @else Tidak ada
+                                                                kursus <br> <label></label>
+                                                                @endif
+                                                                </p>
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                @endforeach
+                                                <div class="col-md-3">
+                                                    <div class="card bg-fuchsia d-flex">
+                                                        <div class="card-body">
+                                                            <h5>Daftar Kehadiran</h5>
+                                                            <p><a href="{{ url('detail-absen-kehadiran/'.$booking->id) }}"
+                                                                  style="color: white">Lihat detail</a>
                                                             </p>
-                                                        </button>
-                                                    </form>
-                                                </div>
-                                            @endforeach
-                                            <div class="col-md-3">
-                                                <div class="card bg-fuchsia d-flex">
-                                                    <div class="card-body">
-                                                        <h5>Daftar Kehadiran</h5>
-                                                        <p><a href="{{ url('detail-absen-kehadiran/'.$booking->id) }}"
-                                                              style="color: white">Lihat detail</a>
-                                                        </p>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            @else
+                                                <div class="col-md-12">
+                                                    <div class="card bg-warning d-flex" style="height: 215px">
+                                                        <div class="card-body">
+                                                            <h4 style="padding: 2%; text-align: center"><i class="fa fa-3x" id="div1"></i>
+                                                                <br> Anda harus menyelesaikan pembayaran biaya kurus private terlebih dahulu
+                                                                <br> <a href="{{ url('tranfer-biaya-tutor/'.$booking->id) }}">Lihat Invoice</a>
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            @endif
                                         </div>
                                     </div>
 
